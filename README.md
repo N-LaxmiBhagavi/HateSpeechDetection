@@ -3,6 +3,26 @@
 
 ---
 This project focuses on detecting hate speech in text using a machine learning model. The notebook provides a step-by-step approach to building and evaluating a hate speech detection model using various natural language processing (NLP) techniques.
+### Requirements:
+
+ _To install the Python packages type the following command:_ <br>
+      
+      pip install pandas numpy nltk scikit-learn matplotlib seaborn
+---
+# The following Python packages are required:
+- __pandas:__ For data manipulation and analysis.
+- __numpy:__ For numerical operations.
+- __nltk:__ For natural language processing, including stopwords.
+- __re:__ For regular expressions used in data cleaning.
+- __string:__ For string manipulation.
+- __scikit-learn (sklearn):__
+     - __sklearn.feature_extraction.text (for CountVectorizer):__ To convert text into numerical features.
+     - __sklearn.model_selection (for train_test_split):__ For splitting the data into training and testing sets.
+     - __sklearn.tree (for DecisionTreeClassifier):__ To build the decision tree model.
+     - __sklearn.metrics (for accuracy_score, confusion_matrix):__ To evaluate the model performance.
+- __matplotlib.pyplot:__ For plotting and visualizations.
+- __seaborn:__ For statistical data visualization.
+- __warnings:__ For handling warnings during code execution.
 ### Steps to perform Hate-Speech-Detection:
 - __Data Cleaning:__ Run the cells related to text cleaning to prepare your data for feature extraction.
 - __Feature Extraction:__ Use Count Vectorizer to convert text into numerical features.
